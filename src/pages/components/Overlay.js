@@ -75,7 +75,7 @@ export function Overlay() {
     ["sportsee/sportsee.png", "SportSee", ["HTMl", "CSS", "React", "Typescript", "Fetch API"], ["Assurer la qualité des données d'une application", "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript", "Interagir avec un service Web."], ["Mai 2023"], ["sportsee/sportsee.png", "sportsee/sportsee1.png"]],
   ];
   const [index, setIndex] = useState(0);
-  const [type, setType] = useState("js");
+  //const [type, setType] = useState("js");
   const { scrollYProgress } = useScroll();
   return (
     <>
@@ -391,7 +391,7 @@ export function Overlay() {
               name=""
               id=""
               onChange={(e) => {
-                setType(e.target.value);
+                //setType(e.target.value);
               }}
             >
               <option>Type de projet</option>

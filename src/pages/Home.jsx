@@ -1,6 +1,4 @@
-import { Suspense, useRef } from "react";
-import { Canvas } from "@react-three/fiber";
-import Scene from "./components/scene/Scene";
+import { useRef } from "react";
 import { Overlay } from "./components/Overlay";
 
 const Home = () => {
